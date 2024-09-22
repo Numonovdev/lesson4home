@@ -1,0 +1,33 @@
+.boxes{
+     width: 100%;
+     height: auto;
+     box-sizing: border-box;
+     border: 1px solid  #fff;
+     padding: 10px;
+     text-align: center;
+
+}
+.boxes h1{
+     font-size: 26px;
+     margin: 0;
+}
+.boxes p{
+
+     font-size: 24px;
+}
+.boxes .tillar{
+     display: flex;
+     justify-content: center;
+     gap: 10px;
+     align-items: center;
+}
+.boxes .delet{
+     padding: 5px;
+     background-color: red;
+
+}
+.delet:hover{
+     border: 3px solid red;
+background-color: rgb(113, 39, 39);
+color: #fff;
+}

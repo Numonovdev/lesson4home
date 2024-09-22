@@ -1,0 +1,101 @@
+body{
+  background: url(./images/background.svg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+#root {
+  /* max-width: 1280px; */
+  width: 100%;
+  /* margin: 0 auto; */
+  /* padding: 2rem; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  /* text-align: center; */
+  color: #fff;
+  }
+form{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  gap: 20px;
+}
+form button{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 10px 15px;
+color: #fff;
+border-radius: 5px;
+  border: 3px solid transparent;
+  box-sizing: border-box;
+  outline: none;
+  background-color: green;
+  font-size: 16px;
+  font-weight: 600;
+  width: 30%;
+  margin: 0 auto;
+  transition: all 0.5s;
+}
+form button:hover{
+  border: 3px solid rgb(29, 14, 169);
+  color: rgb(29, 14, 169);
+  background-color: transparent;
+}
+form .box{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.box input{
+  padding: 5px 10px;
+  border: 2px solid #fff;
+  outline: none;
+  background-color: transparent;
+  font-size: 16px;
+  line-height: 18px;
+  color: #fff;
+  border-radius: 8px;
+}
+.box-select{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+select{
+  background-color: transparent;
+  color: #fff;
+  border: 1px solid #fff; 
+  width: 100%;
+  font-size: 16px;
+  line-height: 18px;
+  padding: 5px;
+  outline: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+option{
+  /* background-color: aqua; */
+  color: rgb(29, 14, 169);
+}
+.box-language{
+  display: flex;
+  flex-direction: column;
+}
+.box-language p{
+  margin: 0;
+  margin-bottom: 5px;
+}
+.box-language .box{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 25px;
+  align-items: center;
+}
+input[type=checkbox]{
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+}
